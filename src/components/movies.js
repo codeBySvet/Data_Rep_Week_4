@@ -8,9 +8,7 @@ import MovieItem from "./movieitem";
             return this.props.movies.map((movie)=>{
                //create a MovieItem per movie. Also passing data to movie item. Key is require to differenciate the different items
                return <MovieItem movie={movie} key={movie.imdbID}></MovieItem>
-
-            })
-        
+            }) 
     }
 }
 //Marking for export
