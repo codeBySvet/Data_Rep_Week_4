@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Card from 'react-bootstrap/Card';
+import React, { Component } from "react"; //importing elements from React 
+import Card from 'react-bootstrap/Card'; //importing elements from Reacts Boostrap card 
 
 {/* This class will auto generate components, per movie, based off the data that is referenced */}
 class MovieItem extends Component {
