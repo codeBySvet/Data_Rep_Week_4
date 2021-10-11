@@ -6,7 +6,6 @@ import { Content } from './components/content'; //importing content.js component
 import 'bootstrap/dist/css/bootstrap.min.css'; // importing boostrap as required for using the nav bar
 import { Navbar, Nav } from 'react-bootstrap'; //import required for nav bar elements
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; //import required for routing
-
 import { Read } from './components/read'; //importing read.js component
 import { Create } from './components/create'; //importing create.js component
 
@@ -34,7 +33,7 @@ class App extends Component {
 
           {/* Switch statment to control routing for the navbar */}
           <Switch>
-            {/* Linking each href path with the appropriate component */}
+            {/* Routing each href path with the appropriate component */}
             <Route path='/' component={Content} exact />
             <Route path='/header' component={Header}/>
             <Route path='/footer' component={Footer}/>
