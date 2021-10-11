@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import MovieItem from "./movieitem";
+import React, { Component } from "react"; //importing elements from React 
+import MovieItem from "./movieitem"; //importing MovieItem component
 
  class Movies extends Component{
 
