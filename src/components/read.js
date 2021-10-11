@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import Movies from "./movies";
+import React, { Component } from "react"; //importing elements from React 
+import Movies from "./movies"; //importing movies component
 
 // Class for the home page of the navbar containing the content of the component
 export class Read extends Component {
 
 
-
+    //Creating object called State to store data being used in the class/component
     state ={
-
+        //The object data itself
         movies:[
             {
                 "Title": "Avengers: Infinity War",
@@ -42,6 +42,7 @@ export class Read extends Component {
         return (
             <div>
             <h1>Hello from read.</h1>
+            //Embedding the Movies component into this Read component. Also passing data from Read to Movies
             <Movies movies={this.state.movies}></Movies>
             
             </div>
@@ -50,5 +51,5 @@ export class Read extends Component {
 
 }
 
-
+//marking for export
 export default Read;
