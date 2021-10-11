@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"; //importing elements from React 
 
 // Class for the home page of the navbar containing the content of the component
 export class Content extends Component {
